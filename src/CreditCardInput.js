@@ -31,7 +31,7 @@ const s = StyleSheet.create({
     // marginLeft: 20,
   },
   inputLabel: {
-    fontWeight: "bold",
+//     fontWeight: "bold",
   },
   input: {
     height: 40,
@@ -89,8 +89,8 @@ export default class CreditCardInput extends Component {
       postalCode: "34567",
     },
     inputContainerStyle: {
-      borderBottomWidth: 1,
-      borderBottomColor: "black",
+//       borderBottomWidth: 1,
+//       borderBottomColor: "black",
     },
     validColor: "",
     invalidColor: "red",
@@ -175,7 +175,7 @@ export default class CreditCardInput extends Component {
             keyboardType="numeric"
             containerStyle={[s.inputContainer, inputContainerStyle, { width: CARD_NUMBER_INPUT_WIDTH }]} />
           
-          <View style={{flexDirection:'row',justifyContent: 'space-between',}}> 
+          <View style={{flexDirection:'row',justifyContent: 'space-between',marginTop:20}}> 
 
           <CCInput {...this._inputProps("expiry")}
             keyboardType="numeric"
