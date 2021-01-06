@@ -15,7 +15,9 @@ import FlipCard from "react-native-flip-card";
 const BASE_SIZE = { width: 300, height: 190 };
 
 const s = StyleSheet.create({
-  cardContainer: {},
+  cardContainer: {
+   marginBottom:25
+  },
   cardFace: {},
   icon: {
     position: "absolute",
